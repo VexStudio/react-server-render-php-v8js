@@ -1,0 +1,25 @@
+{
+  "name": "simple-react-application",
+  "version": "1.0.0",
+  "description": "Simple es6 react application using react-router",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js -p"
+  },
+  "author": "VexStudio <info@vexstudio.com> (https://vexstuio.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "history": "^4.6.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^2.6.1"
+  }
+}
